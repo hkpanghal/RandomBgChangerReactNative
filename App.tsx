@@ -21,7 +21,7 @@ export default function App() {
       <StatusBar backgroundColor={bgColor}/>
         <View style={[styles.screen,{backgroundColor:bgColor}]}>
             <TouchableOpacity style={[styles.btn,]} onPress={getColor}>
-              <Text>
+            < Text>
                 Change Bg
               </Text>
             </TouchableOpacity>
@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     paddingHorizontal:50,
     paddingVertical:20,
     borderRadius:10,
-    backgroundColor:"#123"
+    backgroundColor:"#123",
+    
   },
 })
